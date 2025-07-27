@@ -73,7 +73,7 @@ public class QueueCounterModular
         linkedList.addLast(item); // LinkedList
         long endList = System.nanoTime();
 
-        System.out.println("Item :" + item + "berhasil ditambahkan ke kedua struktur data.");
+        System.out.println("Item :" + item + " berhasil ditambahkan ke kedua struktur data.");
         System.out.println("Waktu eksekusi Queue      : " + (endQueue - startQueue) + " ns");
         System.out.println("Waktu eksekusi LinkedList: " + (endList - startList) + " ns");
     }
